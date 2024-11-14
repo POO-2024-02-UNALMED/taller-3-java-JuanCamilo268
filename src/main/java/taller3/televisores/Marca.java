@@ -10,6 +10,6 @@ public class Marca {
     }
     public String getNombre(){
         String n = this.nombre;
-        return nombre;
+        return n;
     }
 }
