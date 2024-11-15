@@ -40,11 +40,11 @@ public class TV {
         int n = this.precio;
         return n;
     }
-    public void setControl(int Ncontrol){
+    public void setControl(Control Ncontrol){
         this.control = Ncontrol;
     }
     public Control getcontrol(){
-        int n = this.control;
+        Control n = this.control;
         return n;
     }
 }
