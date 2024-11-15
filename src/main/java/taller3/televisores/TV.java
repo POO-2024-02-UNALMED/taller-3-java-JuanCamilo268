@@ -22,13 +22,16 @@ public class TV {
         return marca;
     }
     public void setCanal(int Ncanal){
-        canal = Ncanal;
+        if ((Ncanal >= 1) && (Ncanal <= 120)) {
+            canal = Ncanal;
+        }
     }
     public int getCanal(){
         return canal;
     }
     public void setVolumen(int Nvolumen){
-        volumen = Nvolumen;
+        if ((Nvolumen >= 0) && (Nvolumen <= 7)) {
+            volumen = Nvolumen;
     }
     public int getVolumen() {
         return volumen;
