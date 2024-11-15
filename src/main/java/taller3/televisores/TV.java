@@ -37,8 +37,10 @@ public class TV {
     }
 
     public void setVolumen(int Nvolumen) {
-        if ((Nvolumen >= 0) && (Nvolumen <= 7)) {
-            volumen = Nvolumen;
+        if (estado){
+            if ((Nvolumen >= 0) && (Nvolumen <= 7)) {
+                volumen = Nvolumen;
+            }
         }
     }
 
