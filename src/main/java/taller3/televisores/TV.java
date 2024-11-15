@@ -82,7 +82,7 @@ public class TV {
     public void volumenDown() {
         if (estado){
             if (volumen > 0){
-                canal -= 1;
+                volumen -= 1;
             }
         }
     }
