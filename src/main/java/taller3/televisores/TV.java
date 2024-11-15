@@ -42,7 +42,7 @@ public class TV {
     public void setControl(Control Ncontrol){
         control = Ncontrol;
     }
-    public Control getcontrol(){
+    public Control getControl(){
         return control;
     }
     public void turnOn() {
@@ -57,5 +57,33 @@ public class TV {
     }
     public boolean getEstado() {
         return estado;
+    }
+    public void canalUp() {
+        if (estado){
+            if (canal < 120){
+                canal += 1;
+            }
+        }
+    }
+    public void canalDown() {
+        if (estado){
+            if (canal > 1){
+                canal -= 1;
+            }
+        }
+    }
+    public void volumenUp() {
+        if (estado){
+            if (volumen < 7){
+                volumen += 1;
+            }
+        }
+    }
+    public void volumenDown() {
+        if (estado){
+            if (volumen > 0){
+                canal -= 1;
+            }
+        }
     }
 }
