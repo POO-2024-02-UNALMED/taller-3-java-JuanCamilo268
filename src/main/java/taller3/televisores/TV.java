@@ -115,4 +115,7 @@ public class TV {
     public static int getNumTV() {
         return numTV;
     }
+    public void enlazar(Control control) {
+        this.control = control;
+    }
 }
