@@ -25,9 +25,9 @@ public class TV {
     }
 
     public void setCanal(int Ncanal) {
-        //if ((Ncanal >= 1) && (Ncanal <= 120)) {
-        canal = Ncanal;
-        //}
+        if ((Ncanal >= 1) && (Ncanal <= 120)) {
+            canal = Ncanal;
+        }
     }
 
     public int getCanal() {
